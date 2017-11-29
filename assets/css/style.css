@@ -104,7 +104,7 @@ p, section {
 }
 
 .port-image {
-	
+	width:100%;
 }
 
 .connect-image {
@@ -112,12 +112,14 @@ p, section {
 	text-decoration:none;
 }
 
-.left {
+.ileft {
 	float:left;
+	width:47%;
 }
 
-.right {
+.iright {
 	float:right;
+	width:47%;
 }
 
 .button {
@@ -169,6 +171,7 @@ input {
 	margin-right:20px;
 	margin-bottom:20px;
 	box-sizing: border-box;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 input::placeholder {
@@ -183,4 +186,18 @@ textarea {
 	box-sizing: border-box;
 	height: 155px;
 	vertical-align: text-top;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.submit {
+	
+	color: #fff;
+	background-color:#4aaaa5;
+	float:left;
+	padding: 8px 30px;
+	width:auto;
+	border:0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
 }
