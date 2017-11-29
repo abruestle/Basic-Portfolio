@@ -1,0 +1,65 @@
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background-image: url("assets/images/hixs_pattern_evolution_@2X.png");
+}
+
+header {
+
+}
+
+h1, h2 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #4aaaa5;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+	color: #777777;
+}
+
+a {
+  color: #377F7C;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 650px;
+}
+
+#sidebar {
+  width: 270px;
+  float: right;
+}
+
+#bio-image {
+  width: 200px;
+  margin-right: 20px;
+}
