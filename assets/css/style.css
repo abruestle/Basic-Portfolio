@@ -115,11 +115,26 @@ p, section {
 .ileft {
 	float:left;
 	width:47%;
+	position: relative;
 }
 
 .iright {
 	float:right;
 	width:47%;
+	position: relative;
+}
+
+.imagetext {
+	position: absolute;
+	width:100%;
+	background: #4AAAA5;
+	color:white;
+	font-size:24px;
+  	font-family: 'Georgia', Times, Times New Roman, serif;
+  	text-align:center;
+	box-sizing: border-box;
+	bottom: 20px;
+	padding:20px;
 }
 
 .button {
