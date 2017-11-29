@@ -116,12 +116,14 @@ p, section {
 	float:left;
 	width:47%;
 	position: relative;
+	margin-bottom:40px;
 }
 
 .iright {
 	float:right;
 	width:47%;
 	position: relative;
+	margin-bottom:40px;
 }
 
 .imagetext {
