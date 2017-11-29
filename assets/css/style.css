@@ -6,11 +6,15 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 
 */
 
+* {
+	box-sizing: content-box;
+}
+
 body {
   padding: 0;
   margin: 0;
   background-image: url(../images/hixs_pattern_evolution_@2X.png);
-  background-color:#666;
+  background-color:#131313;
 }
 
 header {
@@ -18,7 +22,7 @@ header {
 	width:100%;
 	margin: 0 auto;
 	background:#fff;
-	border-bottom: 2px;
+	border-bottom: 3px;
 	border-color:#ccc;
 	border-style: solid;
 }
@@ -157,4 +161,26 @@ footer p {
 	color: #b5b5b5;
 	padding: 40px;
 	font-size:12px;
+}
+
+input {
+	padding: 10px;
+	width: 100%;
+	margin-right:20px;
+	margin-bottom:20px;
+	box-sizing: border-box;
+}
+
+input::placeholder {
+	color: #B4B4B4;
+}
+
+textarea {
+	padding: 10px;
+	width: 100%;
+	margin-right:20px;
+	margin-bottom:20px;
+	box-sizing: border-box;
+	height: 155px;
+	vertical-align: text-top;
 }
